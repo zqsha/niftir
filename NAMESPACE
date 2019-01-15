@@ -1,0 +1,8 @@
+import(Rcpp)
+import(bigmemory.sri)
+import(BH)
+import(methods)
+import(bigmemory)
+import(bigextensions)
+exportPattern("^[^\\.]")
+useDynLib(niftir)
